@@ -218,6 +218,7 @@ jobs:
         - "fluff_m0"
         - "gemma_m0"
         - "grandcentral_m4_express"
+        - "greenpill"
         - "hallowing_m0_express"
         - "hallowing_m4_express"
         - "hiibot_bluefi"
