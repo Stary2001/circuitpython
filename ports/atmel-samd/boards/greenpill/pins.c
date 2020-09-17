@@ -38,9 +38,13 @@ STATIC const mp_rom_map_elem_t board_global_dict_table[] = {
     { MP_OBJ_NEW_QSTR(MP_QSTR_B0), MP_ROM_PTR(&pin_PB00) },
     { MP_OBJ_NEW_QSTR(MP_QSTR_B1), MP_ROM_PTR(&pin_PB01) },
     { MP_OBJ_NEW_QSTR(MP_QSTR_B2), MP_ROM_PTR(&pin_PB02) },
+    { MP_OBJ_NEW_QSTR(MP_QSTR_B3), MP_ROM_PTR(&pin_PB03) },
+    { MP_OBJ_NEW_QSTR(MP_QSTR_B4), MP_ROM_PTR(&pin_PB04) },
 
+    { MP_OBJ_NEW_QSTR(MP_QSTR_B6), MP_ROM_PTR(&pin_PB06) },
 
-     { MP_OBJ_NEW_QSTR(MP_QSTR_B8), MP_ROM_PTR(&pin_PB08) },
+    { MP_OBJ_NEW_QSTR(MP_QSTR_B9), MP_ROM_PTR(&pin_PB09) },
+
     // todo: fix all these
 
     { MP_OBJ_NEW_QSTR(MP_QSTR_SDA),MP_ROM_PTR(&pin_PB02) },
